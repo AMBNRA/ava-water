@@ -1,0 +1,352 @@
+body {
+  background: #ffffff;
+  text-align: right;
+}
+
+@font-face {
+	font-family: myFirstFont;
+  	src: url(../font/DubaiW23-Regular.woff);
+}
+
+div {
+	font-family: myFirstFont;
+}
+
+
+.boxPro{
+	box-shadow: 2px 2px 8px 0 rgb(0 0 0 / 20%);
+	height: 100%;
+}
+
+
+figure{
+	padding: 0;
+	margin: 0;
+}
+
+.fontSty{
+	color: #1a3869;
+	font-size: 18px;
+}
+
+.d-out{
+	border: 2px solid #B3CBE5;
+	border-radius: 25px;
+}
+
+.p-out{
+	margin: 0 2%;
+	width: 20%;
+}
+.d-inner{
+	border: 2px solid #B3CBE5;
+	border-radius: 25px;
+	background-color: #B3CBE5;
+}
+
+.p-inner{
+	margin: 0 4%;
+}
+
+.nav-item {
+	/*margin-bottom: 3%;*/
+	color: #EDF4FC;
+}
+
+.nav-item:hover {
+	background-color: #4A90E2;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: #EDF4FC;
+}
+
+.hide {
+	display: none;
+}
+
+.social{
+	box-shadow: 1px 1px 5px grey;
+	border-radius: 50%;
+    width: 30px;
+    height: 30px;
+	padding: 0;
+	margin-right: 2%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	align-self: center;
+}
+
+.social a{
+	display: flex;
+    align-items: center;
+}
+
+.social:hover{
+	background-color: white;
+}
+
+.fa-facebook-f, .fa-twitter, .fa-instagram{
+	color: gray;
+}
+#facebook .fa-facebook-f:hover{
+	color: indigo;
+	font-size: 20px;
+}
+
+#twitter .fa-twitter:hover{
+	color: rgb(86, 118, 221);
+	font-size: 20px;
+}
+
+#instagram .fa-instagram:hover{
+	color: rgb(230, 66, 87);
+	font-size: 20px;
+}
+
+h3{
+	color: #1a3869;
+	font-weight: bold;
+}
+
+@media (min-width: 275px) {
+	body {
+		font-size: 16px;
+	}
+
+	#headerDiv1{
+		background-color: white;
+		padding-top: 2%;
+		padding-bottom: 1%;
+		border-top: 1px solid #9ebcdec7;
+	}
+
+	.topHText{
+		font-size: 14px;
+		color: #1A3869;
+	}
+
+	#headerDiv2{
+		background-color: #9ebcdec7;
+	}
+
+	#navHeader{
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		justify-content: left;
+	}
+
+	.navbar-toggler{
+		border: none;
+	}
+
+	#navbarTop{
+		background-color: #fff;
+		border-top: 0.5px solid;
+		margin-top: 20px;
+		padding-left: 1%;
+	}
+
+	#navbarTop .navbar-nav .nav-item .nav-link{
+		border-bottom: 0.5px solid #d5d3d3;
+		color: #1A3869;
+		font-weight: bold;
+	}
+
+	#logoDiv{
+		width: 100%;
+		text-align: center;
+	}
+
+	#logo{
+		width: 100px;
+	}
+
+	#products div{
+		padding: 5px;
+		margin-bottom: 5%;
+	}
+
+	figure img{
+		width: 100%;
+		height: 100%;
+	}
+
+	figure figcaption{
+		font-size: 12px;
+		color: #1A3869;
+	}
+
+	.boxPro span{
+		font-size: 12px;
+		color: #1A3869;
+		font-weight: bold;
+	}
+
+	#allPro, #allProTop{
+		text-decoration: none;
+	}
+
+	#allPro p, #allProTop span{
+		font-size: 18px;
+		color: #1A3869;
+		margin: 0;
+		font-weight: bold;
+	}
+
+	#allPro:hover p, #allProTop:hover span{
+		color: #86aedb;
+	}
+
+	.fa-chevron-right{
+		font-size: 14px;
+	}
+
+	footer{
+		box-shadow: 0px 0 10px grey;
+    	margin-top: 5%;
+	}
+
+	#pay-methods{
+		width: 100px;
+	}
+
+	.text-f{
+		color: #1a3869;
+		font-weight: bold;
+		font-size: 16px;
+		margin-bottom: 2%;
+	}
+
+	.fa-angle-down{
+		color: #1a3869;
+	}
+
+	#f-1 .navbar-nav .nav-item .nav-link, #f-2 .navbar-nav .nav-item .nav-link{
+		color: black;
+		font-weight: bold;
+		font-size: 14px;
+		padding: 0;
+		margin: 0;
+	}
+
+	#f-1 .navbar-nav, #f-2 .navbar-nav{
+		background-color: #f6f6f6;
+	}
+
+
+
+	#f-1 .navbar-nav .nav-item, #f-2 .navbar-nav .nav-item{
+		border-bottom: 1px solid #fff;
+		padding: 0;
+		margin: 0;
+	}
+
+	#f-3 p{
+		color: black;
+		font-weight: bold;
+		font-size: 14px;
+		background-color: #f6f6f6;
+	}
+
+	.fDiv{
+		padding: 0;
+		padding-top: 5px;
+		border-bottom: 1px solid #d2e0ec;
+	}
+
+	#facebook, #twitter, #instagram{
+		text-decoration: none;
+	}
+}
+
+@media (min-width: 768px) {
+	body {
+		font-size: 18px;
+	}
+
+	#navHeader{
+		max-width: 20%;
+	}
+
+
+	#navbarTop{
+		background-color: transparent;
+		border-top: none;
+		margin-top: 0px;
+		padding-left: 0%;
+	}
+
+	#navbarTop .navbar-nav .nav-item .nav-link{
+		border-bottom: none;
+		padding: 0;
+	}
+
+	#navbarTop .navbar-nav .nav-item {
+		padding: 0;
+	}
+ 
+
+	#logoDiv{
+		width: 0%;
+		float: left;
+	}
+
+	#logo{
+		width: 150px;
+	}
+
+	#products div{
+		padding: 7px;
+	}
+
+	figure img{
+		width: 100%;
+	}
+
+	.boxPro span{
+		font-size: 14px;
+	}
+
+	#allPro p{
+		font-size: 22px;
+	}
+
+	.fa-chevron-right{
+		font-size: 16px;
+	}
+
+	#pay-methods{
+		width: 150px;
+	}
+
+	#f-1 .navbar-nav, #f-2 .navbar-nav{
+		background-color: transparent;
+	}
+	
+	#f-1 .navbar-nav .nav-item, #f-2 .navbar-nav .nav-item{
+		border-bottom: none;
+	}
+
+	#f-1 .navbar-nav .nav-item .nav-link, #f-2 .navbar-nav .nav-item .nav-link{
+		color: #7a7a7a;
+	}
+
+	#f-3 p{
+		color: #7a7a7a;
+		background-color: transparent;
+	}
+}
+@media (min-width: 960px) {
+	#headerDiv1{
+		padding-top: 1%;
+	}
+
+	#products div{
+		padding: 10px;
+	}
+}
+
+
